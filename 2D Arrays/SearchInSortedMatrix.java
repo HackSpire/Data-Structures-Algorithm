@@ -1,4 +1,4 @@
-public class SearchInSortedMatrix {
+public class SearchInSortedMatrix {     //T.C. => O(n+m)
 
     public static boolean Staircase_Search (int matrix[][] , int key) {
         //starting from cell (0,m-1) . //Top Rightmost cell
