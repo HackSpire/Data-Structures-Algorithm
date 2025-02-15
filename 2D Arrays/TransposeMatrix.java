@@ -36,5 +36,6 @@ public class TransposeMatrix {
         int Transposed_Matrix [][] = new int[m][n] ; 
         Transpose_Matrix(Transposed_Matrix, matrix);
         DisplayMatrix(Transposed_Matrix);
+        sc.close();
     }
 }
