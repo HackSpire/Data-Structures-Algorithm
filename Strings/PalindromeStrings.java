@@ -18,5 +18,6 @@ public class PalindromeStrings {
         System.out.println("Enter a string: ");
         String input = sc.next() ; 
         isPalindrome(input) ; 
+        sc.close() ; 
     }
 }
