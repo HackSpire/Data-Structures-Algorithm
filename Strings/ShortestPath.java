@@ -1,5 +1,3 @@
-import java.util.* ;
-
 public class ShortestPath {
 
     public static float getShortestPath (String path) {
