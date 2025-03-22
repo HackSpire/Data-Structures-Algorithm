@@ -1,5 +1,13 @@
 /* 
-* Inheritance is when the attributes and methods of the base class are passed on to a derived class.
+ * Inheritance is when the attributes and methods of the base class are passed on to a derived class.
+ * 
+ * Types of Inheritance:-
+ * 1) Single Level Inheritance: Base Class -> Derived Class
+ * 2) Multi Level Inheritance: Base Class -> Derived Class -> Derived Class
+ * 3) Hierarchial Inheritance: Base Class -> Derived Class , Base Class -> Derived Class
+ * 4) Hybrid Inheritance: Base Class -> Derived Class, Base Class -> Derived Class -> Derived Class
+ * Note: Multi Level Inheritance can't be done in Java but can be done in C++.
+ * -_- Although multi level inheritance can be implemented indirectly using interfaces...
  */
 
 public class Inheritance {
