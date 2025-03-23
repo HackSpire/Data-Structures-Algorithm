@@ -15,6 +15,11 @@ public class Abstraction {
     }
 }
 abstract class Animal{      //abstract class
+    String color;       
+
+    Animal(){       //constructor:  We can't create objects but can create constructors. :)
+        color = "brown" ;
+    }
     //can conatin abstract / non-abstract methods.
     void eat(){         //non-abstract method
         System.out.println("Eats");
@@ -24,6 +29,11 @@ abstract class Animal{      //abstract class
 }
 
 class Horse extends Animal{
+
+    void changeColor(){
+        color = "white" ; 
+    }
+
     void walk(){        // The derived class defines the implementation as required.
         System.out.println("walks on 4 legs.");
     }
