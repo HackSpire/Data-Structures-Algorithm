@@ -1,5 +1,8 @@
 import java.util.*;
-
+//Sample input : aabcc
+//Output: a2bc2
+//Sample input : abc
+//Sample output : abc
 public class StringCompression {
 
     public static String compress(String str) {
