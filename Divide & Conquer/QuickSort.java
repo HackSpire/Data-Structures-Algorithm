@@ -32,6 +32,7 @@ public class QuickSort {
                 arr[i] = temp ;
             }
         }
+        //Now place pivot to its deserving position !!!
         i++ ; 
         int temp = pivot ;
         arr[ei] = arr[i] ; //Dont't write pivot = arr[i] as this will change value in variable not array
